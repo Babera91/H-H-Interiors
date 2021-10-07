@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    padding: 2%;
+    font-size: 1rem;
+    word-spacing: .2rem;
+    color: #2e2e2e;
+}
+
+ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+section, header {
+    height: 90vh;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #1d2c2f;
+}
+
+nav ul {
+    width: 60%;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+header article {
+    width: 40%;
+    margin: auto 0;
+    text-align: center;
+}
+
+header article p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+header section {
+    width: 60%;
+    height: 100%;
+    background: url("../img/design-interior-1.jpg") center/cover no-repeat;
+}
+
+#ourStory {
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+#ourStory section {
+    width: 55%;
+    background: url("../img/story.jpg") center/cover no-repeat;
+}
+
+#ourStory article {
+    width: 45%;
+    margin: auto 5%;
+    text-align: center;
+}
+
+#ourStory p {
+    color: #fff;
+}
+
+#featured {
+    height: unset;
+    margin: 20% auto;
+    text-align: center;
+}
+
+#featured article {
+    width: 45%;
+    margin: 5% auto;
+}
+
+#featured div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+#featured div img {
+    width: 25vw;
+}
+
+#featured div figcaption p {
+    text-align: center;
+}
+
+#contact {
+    height: 70vh;
+    background-color: #2e2e2e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#contact form, #contact article, #contact article p {
+    color: #fff;
+}
+
+#contact article {
+    width: 50%;
+    padding: 10%;
+}
+
+#contact article p {
+    line-height: 2rem;
+}
+
+#contact form {
+    width: 50%;
+    padding: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 5%;
+}
+
+#contact button {
+    width: 20%;
+}
+
+footer {
+    background-color: #1d2c2f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul {
+    width: 20%;
+}
+
+/*
+Font: Lora/ Work sans
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+
+mit JS ein console.log von dem User-Input im Formular
+
+Media Queries auf 600px width
+*/
