@@ -1,3 +1,3 @@
 # H-H-Interiors
-## Link zur Website 
+## Link to Website 
 https://babera91.github.io/H-H-Interiors/
